@@ -1,0 +1,25 @@
+{
+  "enrollmentId": "834-2001",
+  "personalInfo": {
+    "firstName": "Amit",
+    "lastName": "Sharma",
+    "dob": "1985-03-12",
+    "ssn": "222-33-4444",
+    "language": "Hindi"
+  },
+  "address": {
+    "street": "MG Road",
+    "city": "Mumbai",
+    "state": "MH",
+    "zip": "400001"
+  },
+  "mbi": "2XY3-ZA1-PL90",
+  "enrollmentPlans": [
+    {
+      "planName": "Gold Plan",
+      "planType": "Medical",
+      "status": "Primary"
+    }
+  ],
+  "memberId": "21"
+}

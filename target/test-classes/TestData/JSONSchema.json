@@ -1,0 +1,57 @@
+{
+  "type": "array",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "",
+  "minItems": 1,
+  "uniqueItems": true,
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "name",
+      "email",
+      "role",
+      "createdAt",
+      "profile"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "email": {
+        "type": "string",
+        "minLength": 1
+      },
+      "role": {
+        "type": "string",
+        "minLength": 1
+      },
+      "createdAt": {
+        "type": "string",
+        "minLength": 1
+      },
+      "profile": {
+        "type": "object",
+        "properties": {
+          "bio": {
+            "type": "string",
+            "minLength": 1
+          },
+          "avatarUrl": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "bio",
+          "avatarUrl"
+        ]
+      }
+    }
+  }
+}
